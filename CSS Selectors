@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Style Selector Types</title>	
+
+<style>
+
+</style>
+      .layout_box {
+          border:1px soild #8BCFCC;
+          background-color:#539092;
+          padding :10px 
+          margin-top:10px
+     { 
+       
+      .headline    {
+      font-family:arial black, arial, sans-serif;
+      font-weight: bold;
+      color:#F5FAC8;
+      
+     {
+     
+     .center      {
+     marigin:auto;
+     width:40%;
+     
+     }
+     
+     #span_1{font-weight:bold;}
+     #span_2{font-style:italic;}
+     #span_3{text-decoration:underline;}
+     
+     
+     #yellow{background-color#F5FAC8;}
+     #light_green{background-color#AEE8E6;}
+     #green {background-color#8BCFCC;}
+     #blue{background-color#F5FAC8;}
+     
+     #jim {
+           border:1px solid #F5FAC8;
+           float:right;
+           height:450px;
+           margin-left:10px;
+           }
+           
+      #logo  {
+           border:1px solid #F5FAC8;
+           height:60px;
+           float:left;
+           margin-right:10px;
+           
+       }
+       
+       a:link  {
+             color: #F5FAC8;
+             text-decoration:none;
+       }
+       a:visited {color:brown;}
+       a:hover {color:white;}
+            font-size:large;
+       }
+       a:active {color:red;}
+           
+           
+           
+       </style>
+</head>
+	
+	
+	<body>
+	
+		<header class="layout_box">
+			<h1 class="headline">Here's some text to edit.</h1>
+		</header>
+		
+		<main class="layout_box">
+		
+			<img src="jim_bridge.jpg" alt="Jim standing on a bridge over a river." />
+			
+			<h2 class="headline"> An important story about important things that happen importantly</h2>
+			
+			<p><span>Here comes the fun part!</span> Now it's time to start creating web pages. The way the web works is that when you type in a web address (URL) in your web browser, your web browser issues an HTTP request. Using the Hypertext Transfer Protocol, it seeks out the web server on The Internet that is holding the HTML file that represents the web page you want to look at. <span>The HTML file is made up of code in plain text.</span> The Hypertext Markup Language is made up of tags that tell the browser how to interpret and display the page. All the hard work of formatting and presentation is done on your computer by your web browser when it interprets the HTML code. In this lesson, you will begin to learn some of <span>the fundamental HTML coding tags</span> and processes necessary to create a web page. Yes, there are graphic-driven programs such as Dreamweaver that can be used, but learning HTML is essential for serious designers. So, that's where we start.
+			</p>
+			
+			<p>
+			Here comes the fun part! Now it's time to start creating web pages. The way the web works is that when you type in a web address (URL) in your web browser, your web browser issues an HTTP request. Using the Hypertext Transfer Protocol, it seeks out the web server on The Internet that is holding the HTML file that represents the web page you want to look at. <a href="http://w3schools.com">The HTML file is made up of code in plain text.</a> The Hypertext Markup Language is made up of tags that tell the browser how to interpret and display the page. All the hard work of formatting and presentation is done on your computer by your web browser when it interprets the HTML code. In this lesson, you will begin to learn some of the fundamental HTML coding tags and processes necessary to create a web page. Yes, there are graphic-driven programs such as Dreamweaver that can be used, but learning HTML is essential for serious designers. So, that's where we start.
+			</p>
+			
+			<table>
+				<tr>
+					<th colspan="3">Pastel Color Palette</th>
+				</tr >	
+				<tr >
+					<th scope="col">color</th>
+					<th scope="col">hex code</th>
+					<th scope="col">sample</th>
+				</tr>
+				<tr>
+					<td>Yellow</td>
+					<td>#eef9bf</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>Light Green</td>
+					<td>#a7e9af</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>Green</td>
+					<td>#75b79e</td>
+					<td>&nbsp;</td>
+				</tr>				
+				<tr>
+					<td>Blue</td>
+					<td>#6a8caf</td>
+					<td>&nbsp;</td>
+				</tr>	
+			</table>
+		</main>
+		
+		<footer class="layout_box">
+			
+			<p><img id="logo_img" src="logo.png" alt="Jim standing on a bridge over a river." />"This site is authored and maintained by "Your Name." It is not an official website of the Maricopa County Community College District, and Maricopa is not responsible for the content of this site."<br>
+			Logo from: https://www.pngkit.com/view/u2q8i1i1i1e6t4r5_6qg6upl-generic-team-logos-png/
+			</p>
+		</footer>
+	
+	</body>
+</html>
